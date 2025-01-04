@@ -13,7 +13,7 @@ public class Application {
 		//SpringApplication.run(Application.class, args);
 		SpringApplicationBuilder builder =
 				new SpringApplicationBuilder(Application.class); //rodar a aplicação
-		builder.bannerMode(Banner.Mode.LOG); //tirar a logo do Spring
+		builder.bannerMode(Banner.Mode.OFF); //tirar a logo do Spring
 		ConfigurableApplicationContext applicationContext = builder.context();
 
 		//var produtoRepository = applicationContext.getBean("produtoRepository");
