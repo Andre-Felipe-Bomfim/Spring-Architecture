@@ -16,7 +16,7 @@ public class Application {
 		builder.bannerMode(Banner.Mode.OFF); //tirar a logo do Spring
 		ConfigurableApplicationContext applicationContext = builder.context();
 
-		//var produtoRepository = applicationContext.getBean("produtoRepository");
+		// var produtoRepository = applicationContext.getBean("produtoRepository");
 		//builder.profiles("producao"); //para trabalhar com perfis
 		//builder.properties("spring.datasource.url=jdbc://"); //você um dia pode querer usar essa classe para subir uma propriedade na hora de subir a aplicação para Debugar ou algo do tipo
 
